@@ -1,0 +1,25 @@
+{
+	"name": "venne/tester",
+	"description": "Extensions for Nette\\Tester.",
+	"keywords": ["cms", "nette", "doctrine"],
+	"authors": [
+		{
+			"name": "Josef Kříž",
+			"homepage": "http://josef-kriz.cz"
+		}
+	],
+	"require": {
+		"nette/tester": "@dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"Venne": ""
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.0.x-dev"
+		}
+	},
+	"minimum-stability": "dev"
+}
